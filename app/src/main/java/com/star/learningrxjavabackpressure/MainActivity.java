@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         mButton = findViewById(R.id.request);
 
         mButton.setOnClickListener(v -> mSubscription.request(48));
-//
+
 //        Observable
 //                .create((ObservableOnSubscribe<Integer>) emitter -> {
 //
